@@ -27,3 +27,12 @@ The reverse operation (i.e. 'encrypt' = re-encoding a tampered savegame into a
 format that Star Traders: Frontiers can use), is supported as well.
 
 See decrypt_game.bat and encrypt_game.bat as examples (for Windows).
+
+## Note
+Decrypted game file can be edited by some SQL / SQLite clients:
+* https://sqlite.org/cli.html
+* https://sqlitebrowser.org/
+* https://sqlitestudio.pl/
+* and many more (including generic SQL clients like SQuirreL)...
+
+See https://fearlessrevolution.com/viewtopic.php?t=5650 for some hints where/how to find and modify interesting values.
